@@ -23,24 +23,12 @@
     margin-top: 20px;
 }
 
-#wrapper {
-    display: block;
-}
-
-.sb-content-tab .center {
-    display: block;
-}
-
-.sb-content-tab #wrapper {
-    display: none;
-}
-
 .right {
     float: right;
 }
 
 body {
-    margin: 0px;
+    margin: 0;
 }
 
 #default-sidebar {
