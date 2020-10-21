@@ -1,4 +1,4 @@
-import { Component, ViewChild } from '@angular/core';
+import { Component, ViewChild} from '@angular/core';
 import { SidebarComponent } from '@syncfusion/ej2-angular-navigations';
 import { ButtonComponent } from "@syncfusion/ej2-angular-buttons";
 
@@ -13,18 +13,16 @@ export class AppComponent {
     public showBackdrop: boolean = true;
     public width: string ='280px';
     public closeOnDocumentClick: boolean = true;
+    public type: string = 'Push';
+
     public onCreated(args: any) {
          this.sidebar.element.style.visibility = '';
     }
-    btnClick() {
-        if (this.togglebtn.element.classList.contains('e-active')) {
-            this.sidebar.hide();
-        } else {
-            this.sidebar.show();
-        }
-    }
-    closeClick() {
+    closeClick(): void {
         this.sidebar.hide();
-        this.togglebtn.element.classList.remove('e-active');
+    };
+
+    toggleClick():void{
+      this.sidebar.show();
     }
 }

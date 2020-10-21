@@ -1,5 +1,5 @@
 <!--start of side bar -->
-<ejs-sidebar id="default-sidebar" #sidebar (created)="onCreated($event)" style="visibility: hidden" [width]="width" [showBackdrop]="showBackdrop" [closeOnDocumentClick]="closeOnDocumentClick">
+<ejs-sidebar id="default-sidebar" #sidebar [type]='type' [width]='width' [showBackdrop]="showBackdrop" (created)="onCreated($event)" style="visibility: hidden" [closeOnDocumentClick]="closeOnDocumentClick">
   <div class="sub-title">
     <img class="profile-pic" src="assets/img/smiley_face.png">
       <ul class="list-unstyled">
@@ -36,7 +36,9 @@
 
 <div id="head">
   <button ejs-button id="toggle" #togglebtn cssClass="e-flat" iconCss="e-icons burg-icon" isToggle="true"
-      (click)="btnClick()"></button>
+      (click)="toggleClick()">
+  </button>
+  <img class="profile-pic-icon float-right" src="assets/img/smiley_face.png">
 </div>
 <div id="maincontent" class="content">
 

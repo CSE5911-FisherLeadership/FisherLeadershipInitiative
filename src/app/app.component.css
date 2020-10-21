@@ -62,7 +62,7 @@
     box-shadow: none;
     border-radius: 0;
     height: 39px;
-    width: 100px;
+    width: 75px;
 }
 
 .sub-title {
@@ -127,6 +127,11 @@ li:hover {
 img.profile-pic {
     width: 150px;
     height: 100px;
+}
+
+img.profile-pic-icon {
+    width: 50px;
+    height: 30px;
 }
 
 @font-face {
