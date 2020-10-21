@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { SidebarModule } from '@syncfusion/ej2-angular-navigations';
 import { ButtonModule } from '@syncfusion/ej2-angular-buttons';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   imports: [
@@ -14,7 +15,8 @@ import { ButtonModule } from '@syncfusion/ej2-angular-buttons';
     ButtonModule
   ],
   declarations: [
-    AppComponent
+    AppComponent,
+    DashboardComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
