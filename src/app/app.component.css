@@ -109,29 +109,30 @@ body {
     border: 1px solid grey;
 }
 
-a {
+#default-sidebar a {
     color:white !important;
     text-decoration:none;
 }
 
-li {
+#default-sidebar li {
     padding: 5px 5px 5px 5px;
     list-style: none;
 }
 
-li:hover {
+#default-sidebar li:hover {
     background-color:#0079C1;
     color:#FFFFFF;
 }
 
-img.profile-pic {
+#default-sidebar img.profile-pic {
     width: 150px;
     height: 100px;
 }
 
-img.profile-pic-icon {
-    width: 50px;
-    height: 30px;
+img.profile-icon {
+    width: 39px;
+    height: 39px;
+    display:inline-block;;
 }
 
 @font-face {
