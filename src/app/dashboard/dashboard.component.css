@@ -1,4 +1,4 @@
-#carouselExampleCaptions img {
+#fisherCarousel img {
     height: 366px; 
     width: 950px;
     object-fit: cover;
@@ -7,4 +7,8 @@
 .carousel-control-next-icon, 
 .carousel-control-prev-icon {
     background-color: black;
+}
+
+.container.recommendation {
+    height: 200px;
 }
