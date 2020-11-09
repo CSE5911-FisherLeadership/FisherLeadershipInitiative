@@ -1,0 +1,1 @@
+window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%206.37.21614.0%0D%0A%0D%0A00:00:00.118%20--%3E%2000:00:04.216%0D%0ATo%20move%20to%20the%20next%20slide,%20you%20must%20click%20and%20learn%20about%20each%20groupthink%20symptom.%0D%0A%0D%0A"}')
