@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { SidebarModule } from '@syncfusion/ej2-angular-navigations';
 import { ButtonModule } from '@syncfusion/ej2-angular-buttons';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { CoursesComponent } from './courses/courses.component';
 
 @NgModule({
   imports: [
@@ -16,7 +17,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
   ],
   declarations: [
     AppComponent,
-    DashboardComponent
+    DashboardComponent,
+    CoursesComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
