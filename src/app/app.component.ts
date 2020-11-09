@@ -14,6 +14,7 @@ export class AppComponent {
     public width: string ='280px';
     public closeOnDocumentClick: boolean = true;
     public type: string = 'Push';
+    selected :any;
 
     public onCreated(args: any) {
          this.sidebar.element.style.visibility = '';
@@ -24,5 +25,13 @@ export class AppComponent {
 
     toggleClick():void{
       this.sidebar.show();
-    }
+    };
+
+    select(item) {
+        this.selected = item; 
+    };
+    
+    isActive(item) {
+        return this.selected === item;
+    };
 }

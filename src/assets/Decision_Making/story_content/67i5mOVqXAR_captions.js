@@ -1,0 +1,1 @@
+window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%206.35.21017.0%0D%0A%0D%0A00:00:00.128%20--%3E%2000:00:02.400%0D%0AIn%20the%20category%20of%20closed-mindedness,%0D%0A%0D%0A00:00:02.464%20--%3E%2000:00:04.832%0D%0Ahere%20are%20two%20symptoms%20of%20groupthink.%0D%0A%0D%0A"}')
