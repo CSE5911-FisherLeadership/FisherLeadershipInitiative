@@ -7,6 +7,10 @@ import { SidebarModule } from '@syncfusion/ej2-angular-navigations';
 import { ButtonModule } from '@syncfusion/ej2-angular-buttons';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { CoursesComponent } from './courses/courses.component';
+import { LibraryComponent } from './library/library.component';
+import { AchievementsComponent } from './achievements/achievements.component';
+import { DiscussionComponent } from './discussion/discussion.component';
+import { BUILDAssessmentComponent } from './build-assessment/build-assessment.component';
 
 @NgModule({
   imports: [
@@ -18,7 +22,11 @@ import { CoursesComponent } from './courses/courses.component';
   declarations: [
     AppComponent,
     DashboardComponent,
-    CoursesComponent
+    CoursesComponent,
+    LibraryComponent,
+    AchievementsComponent,
+    DiscussionComponent,
+    BUILDAssessmentComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
