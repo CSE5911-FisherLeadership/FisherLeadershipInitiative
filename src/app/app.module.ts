@@ -11,6 +11,7 @@ import { LibraryComponent } from './library/library.component';
 import { AchievementsComponent } from './achievements/achievements.component';
 import { DiscussionComponent } from './discussion/discussion.component';
 import { BUILDAssessmentComponent } from './build-assessment/build-assessment.component';
+import { ProfileComponent } from './profile/profile.component';
 
 @NgModule({
   imports: [
@@ -26,7 +27,8 @@ import { BUILDAssessmentComponent } from './build-assessment/build-assessment.co
     LibraryComponent,
     AchievementsComponent,
     DiscussionComponent,
-    BUILDAssessmentComponent
+    BUILDAssessmentComponent,
+    ProfileComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
