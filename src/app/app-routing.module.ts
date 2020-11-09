@@ -6,6 +6,7 @@ import { CoursesComponent } from './courses/courses.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { DiscussionComponent } from './discussion/discussion.component';
 import { LibraryComponent } from './library/library.component';
+import { ProfileComponent } from './profile/profile.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'courses', component: CoursesComponent },
   { path: 'discussion', component: DiscussionComponent },
   { path: 'build-assessment', component: BUILDAssessmentComponent },
+  { path: 'profile', component: ProfileComponent },
 ];
 
 @NgModule({
