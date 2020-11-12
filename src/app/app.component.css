@@ -32,6 +32,74 @@
     display: inline-block;
 }
 
+.footer {
+	text-align: left;
+	padding-bottom: .6666666667em;
+}
+
+.footer {
+	margin: 0 auto;
+	max-width: 1200px;
+	margin-top: 15px;
+	color: #fff;
+	position: relative;
+	text-align: left;
+	padding: 2.6666666667em 0 1.3333333333em;
+}
+
+.footer-wrap {
+	background: #555;
+}
+
+.footer .footer-content .footer-nav {
+	position: absolute;
+	right: 15px;
+	margin: 0;
+	width: auto;
+	display: inline-block;
+	bottom: 1.6666666667em;
+}
+
+.footer .footer-content a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.visually-hidden {
+	position: absolute !important;
+	overflow: hidden;
+	clip: rect(1px, 1px, 1px, 1px);
+	width: 1px;
+	height: 1px;
+	word-wrap: normal;
+}
+
+.footer .footer-content .copyright p {
+	margin: 0;
+	font-size: .7333333333em;
+}
+
+.footer .footer-content .footer-nav li {
+	border: none;
+	font-size: .8666666667em;
+	display: table-cell;
+}
+
+.footer .footer-content .footer-nav li {
+	display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+
+.fa.fa-facebook-official {
+	font-family: "Font Awesome 5 Brands";
+	font-weight: 400;
+}
+
+*, ::before, ::after {
+	box-sizing: border-box;
+}
+
 .center-align {
     text-align: center;
     padding: 20px;
