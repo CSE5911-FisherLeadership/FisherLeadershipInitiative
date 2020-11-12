@@ -100,6 +100,7 @@
 	box-sizing: border-box;
 }
 
+
 .center-align {
     text-align: center;
     padding: 20px;
@@ -119,14 +120,14 @@
 #head {
     border: 1px solid #424242;
     border-bottom-color: transparent;
-    background: #d0d0d0;
+    background: #333;
 }
 
 #toggle,
 #container .e-btn.e-info:hover,
 #toggle:focus {
     /* csslint allow: adjoining-classes*/
-    background: #adadad;
+    background: #333;
     box-shadow: none;
     border-radius: 0;
     height: 39px;
@@ -147,6 +148,17 @@
     margin-top: 20px;
 }
 
+.sidebar-item {
+    background-color: #444;
+	color: #fff;
+	padding: 5px 15px;
+	border-radius: 10px;
+	text-decoration: none;
+    transition: background .3s linear;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+}
+
 #wrapper {
     display: block;
 }
@@ -160,7 +172,7 @@ body {
 }
 
 #default-sidebar {
-    background-color: #adadad;
+    background-color: #444;
     color: #ffffff;
 }
 

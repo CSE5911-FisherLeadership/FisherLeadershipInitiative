@@ -3,14 +3,14 @@
   <div class="sub-title pl-3 text-left">
     <img class="profile-pic mb-3" src="assets/img/smiley_face.png">
       <ul class="list-unstyled">
-        <li (click)="select('Dashboard')" [ngClass]="{active: isActive('Dashboard')}"><a routerLink="/dashboard">Dashboard</a></li>
-        <li (click)="select('Library')" [ngClass]="{active: isActive('Library')}"><a routerLink="/library">Library</a></li>
-        <li (click)="select('Achievements')" [ngClass]="{active: isActive('Achievements')}"><a routerLink="/achievements">Achievements</a></li>
-        <li (click)="select('My courses')" [ngClass]="{active: isActive('My courses')}"><a routerLink="/courses">My courses</a></li>
-        <li (click)="select('Discussion Board')" [ngClass]="{active: isActive('Discussion Board')}"><a routerLink="/discussion">Discussion Board</a></li>
-        <li><a href="https://fisher.osu.edu/blogs/leadreadtoday" target="_blank">Lead Read Today</a></li>
-        <li (click)="select('BUILD Assessment')" [ngClass]="{active: isActive('BUILD Assessment')}"><a routerLink="/build-assessment">BUILD Assessment</a></li>
-        <li><a href="">Log Out</a></li>
+        <li class="sidebar-item" (click)="select('Dashboard')" [ngClass]="{active: isActive('Dashboard')}"><a routerLink="/dashboard">Dashboard</a></li>
+        <li class="sidebar-item" (click)="select('Library')" [ngClass]="{active: isActive('Library')}"><a routerLink="/library">Library</a></li>
+        <li class="sidebar-item" (click)="select('Achievements')" [ngClass]="{active: isActive('Achievements')}"><a routerLink="/achievements">Achievements</a></li>
+        <li class="sidebar-item" (click)="select('My courses')" [ngClass]="{active: isActive('My courses')}"><a routerLink="/courses">My courses</a></li>
+        <li class="sidebar-item" (click)="select('Discussion Board')" [ngClass]="{active: isActive('Discussion Board')}"><a routerLink="/discussion">Discussion Board</a></li>
+        <li class="sidebar-item" ><a href="https://fisher.osu.edu/blogs/leadreadtoday" target="_blank">Lead Read Today</a></li>
+        <li class="sidebar-item"  (click)="select('BUILD Assessment')" [ngClass]="{active: isActive('BUILD Assessment')}"><a routerLink="/build-assessment">BUILD Assessment</a></li>
+        <li class="sidebar-item" ><a href="">Log Out</a></li>
       </ul>
   </div>
 </ejs-sidebar>
@@ -43,13 +43,13 @@
                 please contact us for assistance via email at
                 <a href="mailto:fcob-accessibility@osu.edu?subject=Web Accessibility Request">fcob-accessibility@osu.edu</a>.</p>
             </div>
-            <ul class="social-links">
+            <!-- <ul class="social-links">
                 <li><a href="https://www.facebook.com/FisherOSU" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
                 <li><a href="https://twitter.com/FisherOSU" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                 <li><a href="https://www.youtube.com/user/fisherosu" target="_blank" rel="noopener noreferrer"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
                 <li><a href="http://www.linkedin.com/edu/school?id=19126" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
                 <li><a href="https://www.instagram.com/fisherosu/" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-            </ul>
+            </ul> -->
             <nav role="navigation" aria-labelledby="block-footermenu-menu" id="block-footermenu">
             
   <h2 class="visually-hidden" id="block-footermenu-menu">Footer Menu</h2>
