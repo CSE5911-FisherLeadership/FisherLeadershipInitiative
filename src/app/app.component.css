@@ -90,10 +90,6 @@ nav {
     width: calc(100% + 1.6em);
     transform: scale3d(1, 1, 1);
 }
-ul {
-    padding-left: 2.6666666667em;
-    margin: 0 0 1.6666666667em;
-}
 
 .visually-hidden {
 	position: absolute !important;
