@@ -32,26 +32,33 @@
     display: inline-block;
 }
 
-@media only screen and (min-width: 36em){
-    .footer {
-        /* text-align: left; */
-        padding-bottom: .6666666667em;
-    }
-}
-
 .footer {
     color: #fff;
     position: relative;
     margin-top: 0;
-    /* text-align: center; */
+    text-align: center;
     padding: 2.6666666667em 0 1.3333333333em;
     background: #555;
+}
+
+@media only screen and (min-width: 36em) {
+    .footer {
+        text-align: left;
+        padding-bottom: .6666666667em;
+    }
 }
 
 .footer .footer-content {
     padding-top: .3333333333em;
     padding-bottom: .3333333333em;
     margin: 0;
+}
+
+
+.footer .footer-content .social-links {
+    transform: scale3d(1, 1, 1);
+    margin: 0 .6666666667em 2em 0;
+    padding-left: 0;
 }
 
 @media only screen and (min-width: 36em) {
@@ -62,13 +69,6 @@
     }
 }
 
-.footer .footer-content .social-links {
-    transform: scale3d(1, 1, 1);
-    margin: 0 .6666666667em 2em 0;
-    padding-left: 0;
-}
-
-
 .footer .footer-content a {
 	color: #fff;
 	text-decoration: none;
@@ -78,12 +78,6 @@ nav {
     display: block;
 }
 
-@media only screen and (min-width: 36em) {
-    .footer .footer-content .footer-nav {
-        text-align: center;
-        display: table;
-    }
-}
 
 .footer .footer-content .footer-nav {
     padding-left: 0;
@@ -91,6 +85,12 @@ nav {
     transform: scale3d(1, 1, 1);
 }
 
+@media only screen and (min-width: 36em) {
+    .footer .footer-content .footer-nav {
+        text-align: center;
+        display: table;
+    }
+}
 .visually-hidden {
 	position: absolute !important;
 	overflow: hidden;
@@ -137,16 +137,16 @@ nav {
     }
 }
 
-@media only screen and (min-width: 36em) {
-    .footer .footer-content .footer-nav li a {
-        padding: .6666666667em;
-    }
-}
-
 .footer .footer-content .footer-nav li a {
     display: block;
     padding: .8em;
     position: relative;
+}
+
+@media only screen and (min-width: 36em) {
+    .footer .footer-content .footer-nav li a {
+        padding: .6666666667em;
+    }
 }
 
 .center-align {
@@ -246,6 +246,7 @@ body {
     }
 }
 .content-wrap {
+    max-width: 80em;
     margin: 0 auto;
     padding: 0 1.25em;
 }
