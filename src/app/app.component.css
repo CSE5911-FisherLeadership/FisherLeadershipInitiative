@@ -32,37 +32,67 @@
     display: inline-block;
 }
 
-.footer {
-	text-align: left;
-	padding-bottom: .6666666667em;
+@media only screen and (min-width: 36em){
+    .footer {
+        /* text-align: left; */
+        padding-bottom: .6666666667em;
+    }
 }
 
 .footer {
-	margin: 0 auto;
-	max-width: 1200px;
-	margin-top: 15px;
-	color: #fff;
-	position: relative;
-	text-align: left;
-	padding: 2.6666666667em 0 1.3333333333em;
+    color: #fff;
+    position: relative;
+    margin-top: 0;
+    /* text-align: center; */
+    padding: 2.6666666667em 0 1.3333333333em;
+    background: #555;
 }
 
-.footer-wrap {
-	background: #555;
+.footer .footer-content {
+    padding-top: .3333333333em;
+    padding-bottom: .3333333333em;
+    margin: 0;
 }
 
-.footer .footer-content .footer-nav {
-	position: absolute;
-	right: 15px;
-	margin: 0;
-	width: auto;
-	display: inline-block;
-	bottom: 1.6666666667em;
+@media only screen and (min-width: 36em) {
+    .footer .footer-content .social-links {
+        position: absolute;
+        right: 0;
+        bottom: 2.6666666667em;
+    }
 }
+
+.footer .footer-content .social-links {
+    transform: scale3d(1, 1, 1);
+    margin: 0 .6666666667em 2em 0;
+    padding-left: 0;
+}
+
 
 .footer .footer-content a {
 	color: #fff;
 	text-decoration: none;
+}
+
+nav {
+    display: block;
+}
+
+@media only screen and (min-width: 36em) {
+    .footer .footer-content .footer-nav {
+        text-align: center;
+        display: table;
+    }
+}
+
+.footer .footer-content .footer-nav {
+    padding-left: 0;
+    width: calc(100% + 1.6em);
+    transform: scale3d(1, 1, 1);
+}
+ul {
+    padding-left: 2.6666666667em;
+    margin: 0 0 1.6666666667em;
 }
 
 .visually-hidden {
@@ -74,32 +104,54 @@
 	word-wrap: normal;
 }
 
+.footer .footer-content .copyright {
+    margin-bottom: 2em;
+}
+
 .footer .footer-content .copyright p {
 	margin: 0;
 	font-size: .7333333333em;
 }
 
-.footer .footer-content .footer-nav li {
-	border: none;
-	font-size: .8666666667em;
-	display: table-cell;
+.footer .footer-content .social-links li {
+    padding-left: 1em;
+    display: inline-block;
 }
 
-.footer .footer-content .footer-nav li {
-	display: inline-block;
-    text-align: center;
-    padding: 5px;
+.footer .footer-content .social-links li .fa {
+    font-size: 1.8666666667em;
 }
 
-.fa.fa-facebook-official {
-	font-family: "Font Awesome 5 Brands";
-	font-weight: 400;
+@media only screen and (min-width: 60em) {
+    .footer .footer-content .footer-nav {
+        position: absolute;
+        right: 0;
+        margin: 0;
+        width: auto;
+        display: inline-block;
+        bottom: 1.6666666667em;
+    }
 }
 
-*, ::before, ::after {
-	box-sizing: border-box;
+@media only screen and (min-width: 36em) {
+    .footer .footer-content .footer-nav li {
+        border: none;
+        font-size: .8666666667em;
+        display: table-cell;
+    }
 }
 
+@media only screen and (min-width: 36em) {
+    .footer .footer-content .footer-nav li a {
+        padding: .6666666667em;
+    }
+}
+
+.footer .footer-content .footer-nav li a {
+    display: block;
+    padding: .8em;
+    position: relative;
+}
 
 .center-align {
     text-align: center;
@@ -187,6 +239,20 @@ body {
 .content {
     height: 325px;
     border: 1px solid grey;
+}
+
+.content-wrap.m-relative {
+    position: relative;
+}
+@media only screen and (min-width: 36em) {
+    .content-wrap {
+        padding: 0 1.3333333333em;
+    }
+}
+.content-wrap {
+    max-width: 80em;
+    margin: 0 auto;
+    padding: 0 1.25em;
 }
 
 #default-sidebar a {
