@@ -34,7 +34,7 @@
 
 .footer {
     color: #fff;
-    position: fixed;
+    position: relative;
     bottom: 0;
     margin-top: 0;
     width: 100%;
