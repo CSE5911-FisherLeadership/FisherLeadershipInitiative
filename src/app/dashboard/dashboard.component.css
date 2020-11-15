@@ -10,7 +10,8 @@
 }
 
 .container.recommendation {
-    height: 200px;
+    background-color: white;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
 }
 
 .main-button {
@@ -22,6 +23,18 @@
     text-decoration: none;
     font-weight: bold;
     transition: background .3s linear;
+}
+
+@media only screen and (min-width: 36em) { 
+    .main-button {
+        height: 150px;
+    }
+}
+
+.twitter-tile {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 150px;
 }
 
 @media only screen and (min-width: 36em) {
