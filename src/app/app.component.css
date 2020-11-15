@@ -34,8 +34,10 @@
 
 .footer {
     color: #fff;
-    position: relative;
+    position: fixed;
+    bottom: 0;
     margin-top: 0;
+    width: 100%;
     text-align: center;
     padding: 2.6666666667em 0 1.3333333333em;
     background: #555;
