@@ -13,7 +13,7 @@ export class AppComponent {
     public showBackdrop: boolean = true;
     public width: string ='280px';
     public closeOnDocumentClick: boolean = true;
-    public type: string = 'Push';
+    public type: string = 'Over';
     selected :any;
 
     public onCreated(args: any) {

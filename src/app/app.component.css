@@ -33,31 +33,42 @@
 }
 
 .footer {
-	text-align: left;
-	padding-bottom: .6666666667em;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    margin-top: 0;
+    width: 100%;
+    text-align: center;
+    padding: 2.6666666667em 0 1.3333333333em;
+    background: #555;
 }
 
-.footer {
-	margin: 0 auto;
-	max-width: 1200px;
-	margin-top: 15px;
-	color: #fff;
-	position: relative;
-	text-align: left;
-	padding: 2.6666666667em 0 1.3333333333em;
+@media only screen and (min-width: 36em) {
+    .footer {
+        text-align: left;
+        padding-bottom: .6666666667em;
+    }
 }
 
-.footer-wrap {
-	background: #555;
+.footer .footer-content {
+    padding-top: .3333333333em;
+    padding-bottom: .3333333333em;
+    margin: 0;
 }
 
-.footer .footer-content .footer-nav {
-	position: absolute;
-	right: 15px;
-	margin: 0;
-	width: auto;
-	display: inline-block;
-	bottom: 1.6666666667em;
+
+.footer .footer-content .social-links {
+    transform: scale3d(1, 1, 1);
+    margin: 0 .6666666667em 2em 0;
+    padding-left: 0;
+}
+
+@media only screen and (min-width: 36em) {
+    .footer .footer-content .social-links {
+        position: absolute;
+        right: 0;
+        bottom: 2.6666666667em;
+    }
 }
 
 .footer .footer-content a {
@@ -65,6 +76,23 @@
 	text-decoration: none;
 }
 
+nav {
+    display: block;
+}
+
+
+.footer .footer-content .footer-nav {
+    padding-left: 0;
+    width: calc(100% + 1.6em);
+    transform: scale3d(1, 1, 1);
+}
+
+@media only screen and (min-width: 36em) {
+    .footer .footer-content .footer-nav {
+        text-align: center;
+        display: table;
+    }
+}
 .visually-hidden {
 	position: absolute !important;
 	overflow: hidden;
@@ -74,32 +102,79 @@
 	word-wrap: normal;
 }
 
+.footer .footer-content .copyright {
+    margin-bottom: 2em;
+}
+
 .footer .footer-content .copyright p {
 	margin: 0;
 	font-size: .7333333333em;
 }
 
-.footer .footer-content .footer-nav li {
-	border: none;
-	font-size: .8666666667em;
-	display: table-cell;
+.footer .footer-content .social-links li {
+    padding-left: 1em;
+    display: inline-block;
+}
+
+.footer .footer-content .social-links li .fa {
+    font-size: 1.8666666667em;
+}
+
+@media only screen and (min-width: 60em) {
+    .footer .footer-content .footer-nav {
+        position: absolute;
+        right: 0;
+        margin: 0;
+        width: auto;
+        display: inline-block;
+        bottom: 1.6666666667em;
+    }
+}
+
+.footer .footer-content .footer-nav li a {
+    display: block;
+    padding: .8em;
+    position: relative;
 }
 
 .footer .footer-content .footer-nav li {
-	display: inline-block;
-    text-align: center;
-    padding: 5px;
+    padding: 0;
+    text-align: left;
+    display: block;
+    font-size: 1.0714285714em;
+    border-bottom: 2px solid #333;
 }
 
-.fa.fa-facebook-official {
-	font-family: "Font Awesome 5 Brands";
-	font-weight: 400;
+.footer .footer-content .footer-nav li:first-child {
+    border-top: 2px solid #333;
 }
 
-*, ::before, ::after {
-	box-sizing: border-box;
+@media only screen and (min-width: 36em) {
+    .footer .footer-content .footer-nav li:first-child {
+        border: none;
+    }
 }
 
+@media only screen and (min-width: 36em) {
+    .footer .footer-content .footer-nav li {
+        border: none;
+        font-size: .8666666667em;
+        display: table-cell;
+    }
+}
+
+@media only screen and (min-width: 36em) {
+    .footer .footer-content .footer-nav li {
+        display: inline-block;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 36em) {
+    .footer .footer-content .footer-nav li a {
+        padding: .6666666667em;
+    }
+}
 
 .center-align {
     text-align: center;
@@ -187,6 +262,20 @@ body {
 .content {
     height: 325px;
     border: 1px solid grey;
+}
+
+.content-wrap.m-relative {
+    position: relative;
+}
+@media only screen and (min-width: 36em) {
+    .content-wrap {
+        padding: 0 1.3333333333em;
+    }
+}
+.content-wrap {
+    max-width: 80em;
+    margin: 0 auto;
+    padding: 0 1.25em;
 }
 
 #default-sidebar a {
