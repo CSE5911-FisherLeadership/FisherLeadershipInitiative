@@ -18,6 +18,7 @@ export class AppComponent {
 
     public onCreated(args: any) {
          this.sidebar.element.style.visibility = '';
+         this.selected = 'Dashboard'
     }
     closeClick(): void {
         this.sidebar.hide();
