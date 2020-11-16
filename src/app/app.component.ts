@@ -14,11 +14,9 @@ export class AppComponent {
     public width: string ='280px';
     public closeOnDocumentClick: boolean = true;
     public type: string = 'Over';
-    selected :any;
 
     public onCreated(args: any) {
          this.sidebar.element.style.visibility = '';
-         this.selected = 'Dashboard'
     }
     closeClick(): void {
         this.sidebar.hide();
@@ -26,13 +24,5 @@ export class AppComponent {
 
     toggleClick():void{
       this.sidebar.show();
-    };
-
-    select(item) {
-        this.selected = item; 
-    };
-    
-    isActive(item) {
-        return this.selected === item;
     };
 }
