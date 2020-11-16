@@ -4,9 +4,9 @@
     object-fit: cover;
 }
 
-.carousel-control-next-icon, 
-.carousel-control-prev-icon {
-    background-color: black;
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
 }
 
 .container.recommendation {
