@@ -4,9 +4,18 @@
     object-fit: cover;
 }
 
+.twitter-timeline {
+    margin-left: 88%;
+    float: right;
+}
+
 .carousel-control-next,
 .carousel-control-prev {
     filter: invert(100%);
+}
+.carousel {
+    width: 88%; 
+    float: left;
 }
 
 .container.recommendation {
