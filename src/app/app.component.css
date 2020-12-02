@@ -281,6 +281,7 @@ body {
 #default-sidebar a {
     color:white !important;
     text-decoration:none;
+    display: list-item;
 }
 
 #default-sidebar li {
