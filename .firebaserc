@@ -5,7 +5,7 @@
   "targets": {
     "fisherleadershipinitiative": {
       "hosting": {
-        "target": "fisherleadershipinitiative",
+        "target": "app",
         "fisher-leadership-app": [
           "fisherleadershipinitiative"
         ]
