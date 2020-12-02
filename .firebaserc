@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "fisherleadershipinitiative"
+  },
+  "targets": {
+    "fisherleadershipinitiative": {
+      "hosting": {
+        "fisher-leadership-app": [
+          "fisherleadershipinitiative"
+        ]
+      }
+    }
+  }
+}

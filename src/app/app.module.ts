@@ -12,6 +12,7 @@ import { AchievementsComponent } from './achievements/achievements.component';
 import { DiscussionComponent } from './discussion/discussion.component';
 import { BUILDAssessmentComponent } from './build-assessment/build-assessment.component';
 import { ProfileComponent } from './profile/profile.component';
+import { LoginPageComponent } from './login-page/login-page.component';
 
 @NgModule({
   imports: [
@@ -28,7 +29,8 @@ import { ProfileComponent } from './profile/profile.component';
     AchievementsComponent,
     DiscussionComponent,
     BUILDAssessmentComponent,
-    ProfileComponent
+    ProfileComponent,
+    LoginPageComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

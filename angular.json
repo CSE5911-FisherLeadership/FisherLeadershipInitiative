@@ -117,8 +117,13 @@
               "devServerTarget": "fisher-leadership-app:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "fisher-leadership-app"
 }

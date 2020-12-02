@@ -1,6 +1,8 @@
 import { Component, ViewChild} from '@angular/core';
 import { SidebarComponent } from '@syncfusion/ej2-angular-navigations';
 import { ButtonComponent } from "@syncfusion/ej2-angular-buttons";
+import * as firebaseui from 'firebaseui';
+import 'firebaseui/dist/firebaseui.css'
 
 @Component({
     selector: 'app-root',
