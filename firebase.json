@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "public",
+    "public": "dist/fisher-leadership-app",
     "ignore": [
       "firebase.json",
       "**/.*",
