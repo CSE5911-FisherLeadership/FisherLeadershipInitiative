@@ -1,0 +1,107 @@
+{
+  "version": "3.43.22859.0",
+  "scenes": [
+    {
+      "title": "Intellectual Stimulation"
+    },
+    {
+      "title": "Corporate Innovation Labs"
+    }
+  ],
+  "slides": [
+    {
+      "id": "6fEXn3cWlr0",
+      "title": "Intro ",
+      "scene_index": "1.1"
+    },
+    {
+      "id": "6SHyOZomwS8",
+      "title": "Timeline",
+      "scene_index": "1.2"
+    },
+    {
+      "id": "6FKW5K8Id6Z",
+      "title": "Intellectual Stimulation",
+      "scene_index": "1.3"
+    },
+    {
+      "id": "6019LXwcvNF",
+      "title": "Intellectual Stimulation",
+      "scene_index": "1.4"
+    },
+    {
+      "id": "5bH6ogKOM7r",
+      "title": "Article",
+      "scene_index": "1.5"
+    },
+    {
+      "id": "5rwBOkyskkL",
+      "title": "Transformational Leadership",
+      "scene_index": "1.6"
+    },
+    {
+      "id": "5o1W6vtIyo4",
+      "title": "Intellectual Stimulation",
+      "scene_index": "1.7"
+    },
+    {
+      "id": "5moLT7PWZYi",
+      "title": "End of Sections",
+      "scene_index": "1.8"
+    },
+    {
+      "id": "6jIyXDQX1UQ",
+      "title": "Corporate Innovation Labs",
+      "scene_index": "2.1"
+    },
+    {
+      "id": "5rY6a0w2lTy",
+      "title": "IKEA",
+      "scene_index": "2.2"
+    },
+    {
+      "id": "6dFso6XbV8I",
+      "title": "Caterpillar",
+      "scene_index": "2.3"
+    },
+    {
+      "id": "6EC0JXiJvfT",
+      "title": "Accenture",
+      "scene_index": "2.4"
+    },
+    {
+      "id": "6fM7VLbbS6K",
+      "title": "Cardinal Health",
+      "scene_index": "2.5"
+    },
+    {
+      "id": "5VC3znXJfme",
+      "title": "Corporate Innovation Labs",
+      "scene_index": "2.6"
+    },
+    {
+      "id": "5ZnO9fIJ8R1",
+      "title": "Review",
+      "scene_index": "2.7"
+    },
+    {
+      "id": "6XKyD6yqJCm",
+      "title": "Reflection",
+      "scene_index": "2.8"
+    },
+    {
+      "id": "5lwHzycACur",
+      "title": "End",
+      "scene_index": "2.9"
+    }
+  ],
+  "player": {
+    "name": "unified",
+    "width": 980,
+    "height": 658
+  },
+  "stage": {
+    "width": 720,
+    "height": 540
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "version": "3.43.22859.0",
+  "scenes": [
+    {
+      "title": "Enhancing Persuasiveness"
+    },
+    {
+      "title": "Peripheral Cues Enhancements"
+    },
+    {
+      "title": "Comparison"
+    },
+    {
+      "title": "ELM Activity"
+    },
+    {
+      "title": "Archive"
+    }
+  ],
+  "slides": [
+    {
+      "id": "5fKszVO4K4Q",
+      "title": "Timeline",
+      "scene_index": "1.1"
+    },
+    {
+      "id": "5hYExsgIuKw",
+      "title": "ELM Enhancements: Peripheral Cues",
+      "scene_index": "2.1"
+    },
+    {
+      "id": "68uxoHgOOg5",
+      "title": "Identify the Information Source",
+      "scene_index": "2.2"
+    },
+    {
+      "id": "6YdAUStXMFO",
+      "title": "Number of Supporters",
+      "scene_index": "2.3"
+    },
+    {
+      "id": "6q2xvawhEBI",
+      "title": "Forewarning: Encourage Active Thinking",
+      "scene_index": "2.4"
+    },
+    {
+      "id": "6IhdgA6cJm6",
+      "title": "Forewarning: Accountability",
+      "scene_index": "2.5"
+    },
+    {
+      "id": "5kzRcpVo9r6",
+      "title": "Form of Exposure",
+      "scene_index": "2.6"
+    },
+    {
+      "id": "5xZrRy3LGGZ",
+      "title": "Leading Questions",
+      "scene_index": "2.7"
+    },
+    {
+      "id": "6KoBkuQQ5rc",
+      "title": "Personal Relevance",
+      "scene_index": "2.8"
+    },
+    {
+      "id": "64eEGO8uz6T",
+      "title": "Mood",
+      "scene_index": "2.9"
+    },
+    {
+      "id": "5tj9C76N3wP",
+      "title": "ELM Enhancements: Peripheral Cues",
+      "scene_index": "2.10"
+    },
+    {
+      "id": "6d0gIV86axc",
+      "title": "Pleasant Music/Visual Appeal",
+      "scene_index": "2.11"
+    },
+    {
+      "id": "5Zk6bAJJB2C",
+      "title": "Posture of the Audience",
+      "scene_index": "2.12"
+    },
+    {
+      "id": "6kUN9rI0ec0",
+      "title": "Length/Number of Arguments",
+      "scene_index": "2.13"
+    },
+    {
+      "id": "6rDRCEJ4aJi",
+      "title": "Timeline",
+      "scene_index": "3.1"
+    },
+    {
+      "id": "6VdaYfHQsAb",
+      "title": "Comparing the ELM and HSM",
+      "scene_index": "3.2"
+    },
+    {
+      "id": "62pNw2GQlGk",
+      "title": "Comparing the ELM and HSM",
+      "scene_index": "3.3"
+    },
+    {
+      "id": "6PWcVbRfjxx",
+      "title": "Comparing the ELM and HSM",
+      "scene_index": "3.4"
+    },
+    {
+      "id": "6CfBj5XTlou",
+      "title": "Comparing the ELM and HSM",
+      "scene_index": "3.5"
+    },
+    {
+      "id": "6YlJMC2f657",
+      "title": "ELM Activity",
+      "scene_index": "4.1"
+    },
+    {
+      "id": "5VKzsb4evGB",
+      "title": "ELM Activity",
+      "scene_index": "4.2"
+    },
+    {
+      "id": "5fmgbTh30HE",
+      "title": "Module Review ",
+      "scene_index": "4.3"
+    },
+    {
+      "id": "6Fo65PXffLx",
+      "title": "Reflection",
+      "scene_index": "4.4"
+    },
+    {
+      "id": "6kR1bZUekNV",
+      "title": "Timeline",
+      "scene_index": "4.5"
+    },
+    {
+      "id": "62YGttiN6vC",
+      "title": "Tab 8",
+      "scene_index": "5.1"
+    },
+    {
+      "id": "6SvVuU6c5BJ",
+      "title": "Tab 6",
+      "scene_index": "5.2"
+    },
+    {
+      "id": "5VJByw06Eft",
+      "title": "Tab 7",
+      "scene_index": "5.3"
+    },
+    {
+      "id": "65YsWULWQjb",
+      "title": "Tab 10",
+      "scene_index": "5.4"
+    },
+    {
+      "id": "5jY1djzRKzd",
+      "title": "Tab 11",
+      "scene_index": "5.5"
+    },
+    {
+      "id": "6VCynnkeqN7",
+      "title": "Tab 9",
+      "scene_index": "5.6"
+    },
+    {
+      "id": "6LiExwhX3y5",
+      "title": "Tab 5",
+      "scene_index": "5.7"
+    }
+  ],
+  "player": {
+    "name": "unified",
+    "width": 980,
+    "height": 658
+  },
+  "stage": {
+    "width": 720,
+    "height": 540
+  }
+}

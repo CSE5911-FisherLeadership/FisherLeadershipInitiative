@@ -1,0 +1,1 @@
+window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%206.32.20313.0%0D%0A%0D%0A00:00:00.544%20--%3E%2000:00:02.944%0D%0AThis%20is%20the%20Fisher%20Leadership%20Initiative%20logo.%0D%0A%0D%0A"}')

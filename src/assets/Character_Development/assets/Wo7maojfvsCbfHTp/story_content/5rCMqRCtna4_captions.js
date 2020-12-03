@@ -1,0 +1,1 @@
+window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%206.31.19951.0%0D%0A%0D%0A00:00:00.064%20--%3E%2000:00:03.907%0D%0AArt%20of%20guiding%20a%20group%20or%20individual%20to%20act%20towards%20achieving%20a%20common%20goal.%0D%0A%0D%0A"}')
