@@ -1,0 +1,87 @@
+{
+  "version": "3.43.22859.0",
+  "scenes": [
+    {
+      "title": "Introduction"
+    },
+    {
+      "title": "Lewin's Theory and Kotter's Theory"
+    }
+  ],
+  "slides": [
+    {
+      "id": "5VYdqq4xLHi",
+      "title": "Intro ",
+      "scene_index": "1.1"
+    },
+    {
+      "id": "6D0dtl7hysQ",
+      "title": "Timeline",
+      "scene_index": "1.2"
+    },
+    {
+      "id": "5oX6U9gqshf",
+      "title": "Introduction to Change Agent",
+      "scene_index": "1.3"
+    },
+    {
+      "id": "5zXS5Ya037c",
+      "title": "Introduction with Dr. Tim Judge",
+      "scene_index": "1.4"
+    },
+    {
+      "id": "5oBMArcvxtS",
+      "title": "Introduction to Change Agent",
+      "scene_index": "1.5"
+    },
+    {
+      "id": "5wuVYBwN1uv",
+      "title": "Timeline",
+      "scene_index": "2.1"
+    },
+    {
+      "id": "5y5lofE45Fh",
+      "title": "Organizational Change",
+      "scene_index": "2.2"
+    },
+    {
+      "id": "5X6WayMQJN0",
+      "title": "Lewin’s Organizational Change Theory",
+      "scene_index": "2.3"
+    },
+    {
+      "id": "5pCo7lrBccF",
+      "title": "Lewin’s Organizational Change Theory",
+      "scene_index": "2.4"
+    },
+    {
+      "id": "6CyVt7lG4eI",
+      "title": "Lewin’s Organizational Change Theory",
+      "scene_index": "2.5"
+    },
+    {
+      "id": "5b8POLpSdFW",
+      "title": "Kotter’s Change Management Framework",
+      "scene_index": "2.6"
+    },
+    {
+      "id": "5fE7BB8dDjx",
+      "title": "Drag and Drop",
+      "scene_index": "2.7"
+    },
+    {
+      "id": "5bh4Ue7XXDp",
+      "title": "End of Sections",
+      "scene_index": "2.8"
+    }
+  ],
+  "player": {
+    "name": "unified",
+    "width": 980,
+    "height": 658
+  },
+  "stage": {
+    "width": 720,
+    "height": 540
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "version": "3.41.22450.0",
+  "scenes": [
+    {
+      "title": "Introduction"
+    },
+    {
+      "title": "Boundary Spanning"
+    },
+    {
+      "title": "Building Social Capital"
+    }
+  ],
+  "slides": [
+    {
+      "id": "630L9xecg0K",
+      "title": "Intro ",
+      "scene_index": "1.1"
+    },
+    {
+      "id": "5tgjWhifDbw",
+      "title": "Timeline",
+      "scene_index": "1.2"
+    },
+    {
+      "id": "5nIVBJXW3mh",
+      "title": "Introduction to Diplomacy",
+      "scene_index": "1.3"
+    },
+    {
+      "id": "6jyR48zwOnB",
+      "title": "Introduction with Dr. Tim Judge",
+      "scene_index": "1.4"
+    },
+    {
+      "id": "5pIxoIsXNIb",
+      "title": "Introduction to Diplomacy",
+      "scene_index": "1.5"
+    },
+    {
+      "id": "6K9huHLEqwY",
+      "title": "Timeline",
+      "scene_index": "2.1"
+    },
+    {
+      "id": "5uMkrgl2Ig7",
+      "title": "Five Boundaries",
+      "scene_index": "2.2"
+    },
+    {
+      "id": "6J9lbdQG8l7",
+      "title": "Five Boundaries",
+      "scene_index": "2.3"
+    },
+    {
+      "id": "6AZo5YfuUbT",
+      "title": "Five Boundaries",
+      "scene_index": "2.4"
+    },
+    {
+      "id": "602lHXXAjIC",
+      "title": "Demographic",
+      "scene_index": "2.5"
+    },
+    {
+      "id": "6MDyIkv241R",
+      "title": "Horizonal",
+      "scene_index": "2.6"
+    },
+    {
+      "id": "5smHCzLJpiH",
+      "title": "Geographic",
+      "scene_index": "2.7"
+    },
+    {
+      "id": "5fwaXODm6Av",
+      "title": "Vertical",
+      "scene_index": "2.8"
+    },
+    {
+      "id": "5xKIPqZLYnS",
+      "title": "Stakeholder",
+      "scene_index": "2.9"
+    },
+    {
+      "id": "60E3afaGcsN",
+      "title": "Untitled Slide",
+      "scene_index": "3.1"
+    }
+  ],
+  "player": {
+    "name": "unified",
+    "width": 980,
+    "height": 658
+  },
+  "stage": {
+    "width": 720,
+    "height": 540
+  }
+}

@@ -1,0 +1,1 @@
+window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%206.36.21213.0%0D%0A%0D%0A00:00:00.032%20--%3E%2000:00:03.592%0D%0AClick%20each%20icon%20to%20learn%20about%20researched%20ways%20to%20improve%20boundary%20spanning.%20%0D%0A%0D%0A"}')

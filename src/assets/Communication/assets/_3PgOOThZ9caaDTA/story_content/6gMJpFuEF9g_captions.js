@@ -1,0 +1,1 @@
+window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%206.29.19305.0%0D%0A%0D%0A00:00:00.192%20--%3E%2000:00:04.612%0D%0ALeading%20questions%20have%20been%20found%20to%20impact%20audience%20attitudes%20in%20an%20expected%20direction.%0D%0A%0D%0A"}')

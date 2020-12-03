@@ -1,0 +1,1 @@
+window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%206.35.21017.0%0D%0A%0D%0A00:00:00.512%20--%3E%2000:00:06.279%0D%0AIdentify%20the%20other%20six%20peripheral%20or%20heuristic%20cues%20being%20used%20to%20persuade%20customers%20to%20purchase%20this%20cereal.%0D%0A%0D%0A"}')

@@ -1,0 +1,82 @@
+{
+  "version": "3.41.22509.0",
+  "scenes": [
+    {
+      "title": "Introduction"
+    },
+    {
+      "title": "Virtuous Leadership"
+    }
+  ],
+  "slides": [
+    {
+      "id": "62dITa86xKX",
+      "title": "Introduction",
+      "scene_index": "1.1"
+    },
+    {
+      "id": "6NoEfvOp68o",
+      "title": "Timeline",
+      "scene_index": "1.2"
+    },
+    {
+      "id": "5p5iArc3JlX",
+      "title": "Introduction to Responsibility",
+      "scene_index": "1.3"
+    },
+    {
+      "id": "6ltdJcFRA0P",
+      "title": "Introduction with Dr. Tim Judge",
+      "scene_index": "1.4"
+    },
+    {
+      "id": "5tzmSZumJCp",
+      "title": "Introduction to Responsibility",
+      "scene_index": "1.5"
+    },
+    {
+      "id": "6Y4NUWDfxVN",
+      "title": "Timeline",
+      "scene_index": "2.1"
+    },
+    {
+      "id": "63fpz5m6jbb",
+      "title": "Servant Leadership",
+      "scene_index": "2.2"
+    },
+    {
+      "id": "6lA9FoIElcS",
+      "title": "Servant Leadership Article",
+      "scene_index": "2.3"
+    },
+    {
+      "id": "6MiEfchl5rl",
+      "title": "Key Takeaways",
+      "scene_index": "2.4"
+    },
+    {
+      "id": "6OshzCA3TLj",
+      "title": "A Model of Servant Leadership",
+      "scene_index": "2.5"
+    },
+    {
+      "id": "6mWY413WKxd",
+      "title": "Servant Leadership Example",
+      "scene_index": "2.6"
+    },
+    {
+      "id": "6f83t1OcCTd",
+      "title": "End of Course",
+      "scene_index": "2.7"
+    }
+  ],
+  "player": {
+    "name": "unified",
+    "width": 980,
+    "height": 658
+  },
+  "stage": {
+    "width": 720,
+    "height": 540
+  }
+}
