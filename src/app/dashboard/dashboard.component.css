@@ -89,11 +89,9 @@
 
 .twitter-tile {
    width: 250px;
-   margin: 3px;
+   margin: 0px;
    padding: 5px 15px;
-   background-color: #aa2222;
    color: #fff;
-   border-radius: 10px;
    font-weight: bold;
    transition: background .3s linear;
    text-decoration: none;
