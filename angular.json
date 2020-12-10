@@ -125,5 +125,8 @@
       }
     }
   },
-  "defaultProject": "fisher-leadership-app"
+  "defaultProject": "fisher-leadership-app",
+  "cli": {
+    "analytics": false
+  }
 }
